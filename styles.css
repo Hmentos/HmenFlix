@@ -90,3 +90,29 @@ height: 200px;
         color: rgb(255, 0, 0);
     }
     
+    .categoria-videos2{
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+    }
+    
+    .categoria2
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 50px;
+    }
+    
+    .categoria-videos2 img {
+    opacity: 0.5;
+    height: 200px;
+    }
+    
+    .categoria-videos2 img:hover {
+        opacity: 1.0;
+        border: 2px solid white
+    }
+    
+    .categoria h4 {
+        color:red;
+    }
